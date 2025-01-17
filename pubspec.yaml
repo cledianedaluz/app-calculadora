@@ -1,0 +1,19 @@
+name: calculator_app
+description: Uma nova aplicação Flutter de calculadora
+
+publish_to: 'none' # Remover isso se for publicar no pub.dev.
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  math_expressions: ^2.0.0 # Adicione isso aqui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
